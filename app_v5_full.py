@@ -3,7 +3,7 @@ import sqlite3
 import hashlib
 from datetime import datetime, date
 import os
-
+import pandas as pd  # <--- SIR THÊM DÒNG NÀY VÀO LÀ XONG!
 # ── 1. CẤU HÌNH DATABASE (SQLITE) ──────────────────────────
 DB_NAME = "internal_management.db"
 
